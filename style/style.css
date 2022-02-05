@@ -1,11 +1,13 @@
 body {
   background-color: rgb(247, 247, 247);
 }
+
 h1,
 .top-card .card-text {
   color: #fff;
 }
-.card-footer {
+.card-footer,
+.card-header {
   display: none;
 }
 
@@ -21,22 +23,20 @@ h1,
   padding: 300px;
 }
 .top-card .card-body {
-  background-image: url(assets/blackandwhite.png);
-  background-size: cover;
+  background-image: url(assets/logo.png);
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 10px 10px 5px grey;
 }
 .card-body-container {
   width: 55%;
   margin: auto;
 }
-.card {
-  box-shadow: 10px 10px 5px grey;
-}
 
 .card.mix {
   min-height: 895px;
   position: relative;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .mix-button {
@@ -50,6 +50,50 @@ h1,
   margin: 25px;
 }
 
+.mixes-container {
+  padding: 60px;
+}
+
 #about.container {
   padding: 60px 0px;
+  color: #fff;
+}
+.about-container {
+  background-image: url(assets/blackandwhite.png);
+  filter: opacity(95%);
+  background-color: #000;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.services-container {
+  padding: 60px;
+  filter: opacity(95%);
+  background-color: #000;
+  box-shadow: 10px 10px 5px grey;
+  color: #fff;
+}
+.card.service .card-body {
+  color: #000;
+}
+
+.contact-container {
+  padding: 60px;
+}
+@media only screen and (max-width: 600px) {
+  .about-container,
+  .mixes-container,
+  .services-container,
+  .contact-container {
+    padding: 10px;
+  }
+  .top-card .card-body {
+    padding: 0;
+    height: 100vh;
+  }
+
+  #about.container {
+    padding: 0px;
+  }
 }
