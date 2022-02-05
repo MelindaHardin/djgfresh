@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(247, 247, 247);
+}
+h1,
+.top-card .card-text {
+  color: #fff;
+}
+.card-footer {
+  display: none;
+}
+
+.container {
+  max-width: 1220px;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 80;
+}
+.top-card .card-body {
+  padding: 300px;
+}
+.top-card .card-body {
+  background-image: url(assets/blackandwhite.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 5px grey;
+}
+.card-body-container {
+  width: 55%;
+  margin: auto;
+}
+.card {
+  box-shadow: 10px 10px 5px grey;
+}
+
+.card.mix {
+  min-height: 895px;
+  position: relative;
+}
+
+.mix-button {
+  position: absolute;
+  bottom: 25px;
+}
+
+.card.service {
+  width: 95%;
+  height: 500px;
+  margin: 25px;
+}
+
+#about.container {
+  padding: 60px 0px;
+}
