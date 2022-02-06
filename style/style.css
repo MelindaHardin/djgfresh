@@ -93,6 +93,10 @@ h1,
 .contact-container {
   padding: 60px;
 }
+
+.fab {
+  margin: 5px;
+}
 @media only screen and (max-width: 600px) {
   .about-container,
   .mixes-container,
