@@ -38,14 +38,12 @@ h1,
 }
 
 .card.mix {
-  min-height: 895px;
+  height: 850px;
   position: relative;
-  box-shadow: 10px 10px 5px grey;
 }
 
-.mix-button {
-  position: absolute;
-  bottom: 25px;
+.card-img-top {
+  box-shadow: 10px 10px 5px grey;
 }
 
 .card.service {
