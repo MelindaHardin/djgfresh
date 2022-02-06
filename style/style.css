@@ -19,6 +19,10 @@ h1,
   top: 0;
   z-index: 80;
 }
+.card.top-card.text-center {
+  height: 100vh;
+}
+
 .top-card .card-body {
   padding: 300px;
 }
@@ -46,7 +50,7 @@ h1,
 
 .card.service {
   width: 95%;
-  height: 500px;
+  height: 520px;
   margin: 25px;
 }
 
@@ -55,7 +59,7 @@ h1,
 }
 
 #about.container {
-  padding: 60px 0px;
+  padding: 120px 0px;
   color: #fff;
 }
 .about-container {
@@ -69,8 +73,18 @@ h1,
 
 .services-container {
   padding: 60px;
-  filter: opacity(95%);
-  background-color: #000;
+  background-color: #4b4b4b;
+  opacity: 1;
+  background-image: radial-gradient(circle at center center, #ffffff, #4b4b4b),
+    repeating-radial-gradient(
+      circle at center center,
+      #ffffff,
+      #ffffff,
+      9px,
+      transparent 18px,
+      transparent 9px
+    );
+  background-blend-mode: multiply;
   box-shadow: 10px 10px 5px grey;
   color: #fff;
 }
