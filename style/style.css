@@ -4,7 +4,18 @@ body {
 
 h1,
 .top-card .card-text {
-  color: #fff;
+  color: #000;
+}
+
+h2 {
+  padding-bottom: 30px;
+}
+
+.card.top-card.text-center {
+  filter: opacity(95%);
+  background-color: #000;
+  border-radius: 0;
+  box-shadow: 10px 10px 5px grey;
 }
 .card-footer,
 .card-header {
@@ -52,14 +63,21 @@ h1,
   margin: 25px;
 }
 
-.mixes-container {
+.mixes-container,
+.services-container,
+.contact-container {
   padding: 60px;
+  filter: opacity(95%);
+  background-color: #000;
+  color: #fff;
+  box-shadow: 10px 10px 5px grey;
 }
 
 #about.container {
   padding: 220px 0px;
   color: #fff;
 }
+
 .about-container {
   background-image: url(assets/blackandwhite.png);
   filter: opacity(95%);
@@ -69,24 +87,7 @@ h1,
   box-shadow: 10px 10px 5px grey;
 }
 
-.services-container {
-  padding: 60px;
-  background-color: #4b4b4b;
-  opacity: 1;
-  background-image: radial-gradient(circle at center center, #ffffff, #4b4b4b),
-    repeating-radial-gradient(
-      circle at center center,
-      #ffffff,
-      #ffffff,
-      9px,
-      transparent 18px,
-      transparent 9px
-    );
-  background-blend-mode: multiply;
-  box-shadow: 10px 10px 5px grey;
-  color: #fff;
-}
-.card.service .card-body {
+.card-body {
   color: #000;
 }
 
